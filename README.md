@@ -1,10 +1,10 @@
-# Salary Prediction and Data Exploration
-## Overview
+**Salary Prediction and Data Exploration**
+
+Overview
 This project focuses on predicting software engineer salaries using data collected from the Stack Overflow Developer Survey. The process involves web scraping to obtain the dataset link, downloading the data, cleaning, and transforming it for analysis. A Gradient Boosting Regressor model is trained to predict salaries based on various features.
 
-## Key Steps
-1. Data Collection
- 
+Key Steps
+1. Data Collection: 
 Web scraped Stack Overflow to obtain the dataset link.
 Downloaded a zip file containing the survey data.
 Extracted the CSV file from the zip archive.
