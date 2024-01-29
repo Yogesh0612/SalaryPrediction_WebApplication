@@ -2,18 +2,20 @@
 ## Overview
 This project focuses on predicting software engineer salaries using data collected from the Stack Overflow Developer Survey. The process involves web scraping to obtain the dataset link, downloading the data, cleaning, and transforming it for analysis. A Gradient Boosting Regressor model is trained to predict salaries based on various features.
 
-Key Steps
+## Key Steps
 1. Data Collection
+ 
 Web scraped Stack Overflow to obtain the dataset link.
 Downloaded a zip file containing the survey data.
 Extracted the CSV file from the zip archive.
-2. Data Cleaning and Transformation
+
+3. Data Cleaning and Transformation
 Cleaned the dataset by handling missing values and removing unnecessary columns.
 Transformed categorical features using LabelEncoder from scikit-learn.
-3. Model Training
+4. Model Training
 Utilized a Gradient Boosting Regressor to predict software engineer salaries.
 Employed cross-validation for model evaluation.
-4. Deployment with Streamlit
+5. Deployment with Streamlit
 Created a Streamlit web application for user interaction.
 Implemented two main features:
 Salary Prediction: Allows users to input parameters and predicts the expected salary.
